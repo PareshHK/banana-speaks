@@ -1,10 +1,15 @@
+var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
 
-//input
-var username = prompt("give me usename");
-
-//processing
-var welcomeMessage = "this works fine!!" + username;
+console.log(txtInput)
 
 
-//output
-alert(welcomeMessage);
+function clickHandler() {
+
+        console.log("clicked!");
+        console.log("input", txtInput.value);
+
+    };
+
+
+    btnTranslate.addEventListener("click", clickHandler)
