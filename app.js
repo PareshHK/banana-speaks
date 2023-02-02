@@ -8,6 +8,7 @@ function clickHandler() {
 
         console.log("clicked!");
         console.log("input", txtInput.value);
+        
 
     };
 
